@@ -1,0 +1,23 @@
+.item{
+    display: grid;
+    flex: 1;
+    grid-template-columns: 1fr;
+}
+.item__id {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #cccccc;
+    justify-self: right;
+}
+
+.item__property {
+    text-decoration: none;    
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #414141;
+}
+
+.property_list {
+    padding: 10px;
+    list-style: none;
+}

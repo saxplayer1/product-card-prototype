@@ -1,0 +1,24 @@
+.breadcrumbs {
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+.breadcrumbs__item {
+    display: inline-block;
+}
+
+.breadcrumbs__item:not(:last-of-type)::after {
+    content: ' / ';
+    margin: 0 5px;
+    color: #cccccc;
+}
+
+.breadcrumbs__link {
+    text-decoration: none;
+    color: #0084ff
+}
+
+.breadcrumbs__link--active{
+    text-decoration: none;
+    color: #00b445
+}
